@@ -877,7 +877,7 @@
     <div class="discord-card">
       <h2>Join the Community</h2>
       <p>Script drops · Support</p>
-      <a href="#" id="discordInviteBtn" class="https://discord.gg/nbjrFMc9TR">⎗ Join Discord</a>
+      <a href="#" id="discordInviteBtn" class="discord-invite">⎗ Join Discord</a>
       <div>
         <div class="member-badge">
           <div class="online-dot"></div>
@@ -1179,7 +1179,7 @@ function showToast(msg) {
 /* ══════════════════════════════════════════════
    SOCIAL LINKS (placeholder handling)
 ══════════════════════════════════════════════ */
-['twitterLink','githubLink','discordUser','discordInviteBtn'].forEach(id => {
+['twitterLink','githubLink','txtdrei','https://discord.gg/nbjrFMc9TR'].forEach(id => {
   document.getElementById(id)?.addEventListener('click', e => {
     e.preventDefault();
     showToast('Link coming soon — check back later');
